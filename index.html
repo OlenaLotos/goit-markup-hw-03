@@ -7,7 +7,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     
 </head>
@@ -16,7 +16,7 @@
 <body>
     
     <header class="page-header container">
-        <div class="nav container"> 
+        <div class="header"> 
         <nav>
             <a href="./index.html" class="logo"> <span class="logo-accent">Web</span>Studio</a>
     
@@ -26,84 +26,121 @@
                 <li> <a href="" class="link">Контакты</a></li>
             </ul>
         </nav>
-         </div>
-         <div class="auth-nav container">
+        
+        
          <ul class="auth-nav list">
             <li> <a href="" class="auth-nav">info@devstudio.com</a></li>
             <li> <a href="" class="auth-nav">+38 096 111 11 11</a></li>
         </ul>
-   </div>
+       </div>     
     </header>
 
 <main>
-<div>
-    <section class="hero">
+
+    <section class="hero section">
+        <div class="hero container">
         <h1 class="hero-title">Эффективные решения<br>для вашего бизнеса</h1>
         <button type="button" class="button-hero">Заказать услугу</button> 
-        </section>
- </div>   
+   </div>  
+ </section>
+         
 
     <!--Особливості-->
-    <section>
-
-        <ul class="list">
-            <li>
+    <section class="section">
+<div class="features container">
+        <ul class="features-text list">
+            <li class="item">
                 <h3 class="features-title">Внимание к деталям</h3>
             <p class="features-text">Идейные соображения, а также <br> начало повседневной работы по <br> формированию позиции.</p>
             </li>
 
-        <li>
+        <li class="item">
             <h3 class="features-title">Пунктуальность</h3>
             <p class="features-text">Задача организации, в особенности <br> же рамки и место обучения кадров <br> влечет за собой.</p>
         </li>
-        <li>
+
+        <li class="item">
             <h3 class="features-title">Планирование</h3>
             <p class="features-text">Равным образом консультация с <br> широким активом в значительной <br> степени обуславливает.</p>
         </li>
-        <li>
+        <li class="item">
             <h3 class="features-title">Современные технологии</h3>
             <p class="features-text">Значимость этих проблем настолько <br> очевидна, что реализация плановых <br> заданий.</p>
         </li>
         </ul>
+    </div>
     </section>
 
     <!--Діяльність-->
-    <section>
+    <section class="section">
+        <div class="activity container">
         <h2 class="activity-title">Чем мы занимаемся</h2>
-        <ul class="list">
-            <li><img src="./images/img.png" alt="Фото планшета с клавиатурой" width="370"></li>           
-            <li><img src="./images/planshet.png" alt="Фото планшета" width="370"></li>
-            <li><img src="./images/nout.png" alt="Фото ноутбука" width="370"></li>  
+        <ul class="activity list">
+            <li class="activity-photo"><img src="./images/img.png" alt="Фото планшета с клавиатурой" width="370"></li>           
+            <li class="activity-photo"><img src="./images/planshet.png" alt="Фото планшета" width="370"></li>
+            <li class="activity-photo"><img src="./images/nout.png" alt="Фото ноутбука" width="370"></li>  
         </ul>
+    </div>
     </section>
 
     <!--Команда-->
 
-    <section>
+    <section class="section">
+        <div class="team container">
         <h2 class="team-title">Наша команда</h2>
-        <ul class="list">
-            <li><img src="./images/igor.jpg" alt="Фото Игоря" width="270" height="260">
-                <h3 class="team-name">Игорь Демьяненко</h3>
+         <div>
+
+         </div>
+         <ul class="team-card list">
+           
+            <li class="card-list">
+                <div>
+                <img class="photo-team" src="./images/igor.jpg" alt="Фото Игоря" width="270" height="260">
+               <div class="card-content">
+                   <h3 class="team-name">Игорь Демьяненко</h3>
                 <p class="team-possition"> <span lang="en">Product Designer</span> </p>
-            </li>
-            <li><img src="./images/olga.jpg" alt="Фото Ольги" width="270" height="260">
-                <h3 class="team-name">Ольга Репина</h3>
+            </div>
+         </div>
+        </li>
+            <li class="card-list">
+               <div>
+                <img class="photo-team"src="./images/olga.jpg" alt="Фото Ольги" width="270" height="260">
+               
+                <div class="card-content">
+                    <h3 class="team-name">Ольга Репина</h3>
                 <p class="team-possition"> <span lang="en">Frontend Developer</span> </p>
-            </li>
-            <li><img src="./images/nicolay.jpg" alt="Фото Николая" width="270" height="260">
-                <h3 class="team-name">Николай Тарасов</h3>
+            </div>
+        </div>
+        </li>
+            <li class="card-list">
+                <div>
+                <img class="photo-team"src="./images/nicolay.jpg" alt="Фото Николая" width="270" height="260">
+                <div class="card-content">
+                    <h3 class="team-name">Николай Тарасов</h3>
                 <p class="team-possition"> <span lang="en">Marketing</span> </p>
-            </li>
-            <li><img src="./images/mihail.jpg" alt="Фото Михаила" width="270" height="260">
-                <h3 class="team-name">Михаил Ермаков</h3>
+            </div>
+        </div>
+        </li>
+            <li class="card-list">
+                <div>
+                <img class="photo-team"src="./images/mihail.jpg" alt="Фото Михаила" width="270" height="260">
+                <div class="card-content">
+                    <h3 class="team-name">Михаил Ермаков</h3>
                 <p class="team-possition"> <span lang="en">UI Designer</span> </p>
-            </li>
+            </div>
+        </div>
+        </li>
+       
         </ul>
+     </div>
+    </div>
     </section>
 </main>
 
     <!--Футер-->
+    
     <footer class="footer-backgraund">
+        <div class="footer container">
         <a href=".index.html" class="logo-foter"> <span class="logo-accent">Web</span>Studio</a>
         <address class="address-city">
             <a href="https://goo.gl/maps/Y9RydLLw3SXS2AKa6" class="address">г. Киев, пр-т Леси Украинки, 26</a>
@@ -113,8 +150,10 @@
             <a href="mailto:info@example.com" class="contacts-main">info@example.com</a> <br>
             <a href="tel:+380991111111" class="contacts-main">+38 099 111 11 11</a>
         </address>
+    </div>
     </footer>
-</div>
+
+
 </body>
 
 </html>
