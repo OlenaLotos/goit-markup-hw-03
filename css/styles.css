@@ -52,8 +52,9 @@ body {
 }
 
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 32px;
+  /* padding-top: 24px;
+  padding-bottom: 32px; */
+  border-bottom: solid 1px #ececec;
 }
 
 /* Index.html */
@@ -267,6 +268,7 @@ body {
 }
 .item-wrap {
   width: 370px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 /* .item-portfolio:not(:last-child) {
