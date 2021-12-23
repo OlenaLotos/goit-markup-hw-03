@@ -15,23 +15,24 @@
 
 <body>
 
-    <header class="page-header container">
-        <div class="header">
-        <nav>
+    <header class="page-header">
+        <div class="header container">
+        <nav class="navigation">
             <a  href="./index.html" class="logo"> <span class="logo-accent">Web</span>Studio</a>
 
             <ul class="site-nav list">
-                <li class="site-nav-items"> <a href="./index.html" class="link" >Студия</a></li>
-                <li class="site-nav-items"> <a href="./index.html" class="link" >Портфолио</a></li>
-                <li class="site-nav-items"> <a href="" class="link" >Контакты</a></li>
+                <li class="header-link"> <a href="./index.html" class="link" >Студия</a></li>
+                <li class="header-link"> <a href="./index.html" class="link" >Портфолио</a></li>
+                <li class="header-link"> <a href="" class="link" >Контакты</a></li>
             </ul>
         </nav>
         
-    
+    <div class="auth-nav-group">
         <ul class="auth-nav header list">
-            <li> <a href="" class="auth-nav">info@devstudio.com</a></li>
-            <li> <a href="" class="auth-nav">+38 096 111 11 11</a></li>
+            <li class="header-link"> <a href="" class="auth-nav">info@devstudio.com</a></li>
+            <li class="header-link"> <a href="" class="auth-nav">+38 096 111 11 11</a></li>
         </ul>
+    </div>
     </div>
     </header>
 
@@ -53,58 +54,75 @@
     <ul class="portfolio list">
         
         <li class="item-portfolio"><a href="" class="link">
+            <div class="item-wrap">
             <img src="./images/texnokrjak.jpg" alt="Фото с тремя роботниками" width="370" height="294">
             <h2 class="section-title">Технокряк</h2>
             <p class="section-text">Веб-сайт</p>
-        </a>
+        </div>
+    </a>
         </li>
         <li class="item-portfolio"><a href="" class="link">
+            <div class="item-wrap">
             <img src="./images/basketball.jpg" alt="Баскетбол" width="370" height="294">
             <h2 class="section-title">Постер <span lang="en">New Orlean vs Golden Star</span> </h2>
             <p class="section-text">Дизайн</p>
-        </a>
+        </div>
+    </a>
         </li>
         <li class="item-portfolio"><a href="" class="link">
+            <div class="item-wrap">
             <img src="./images/seafood.jpg" alt="Лого ресторана" width="370" height="294">
             <h2 class="section-title">Ресторан <span lang="en">Seafood</span> </h2>
             <p class="section-text">Приложение</p>
-        </a>
+        </div>
+    </a>
         </li>
         <li class="item-portfolio"><a href="" class="link">
-            <img src="./images/naushnyky.jpg" alt="Фото наушников" width="370" height="294">
+            <div class="item-wrap">
+                <img src="./images/naushnyky.jpg" alt="Фото наушников" width="370" height="294">
             <h2 class="section-title">Проект <span lang="en">Prime</span> </h2>
             <p class="section-text">Маркетинг</p>
-        </a>    
+        </div>
+    </a>    
         </li>
         <li class="item-portfolio"><a href="" class="link">
-            <img src="./images/boxes.jpg" alt="Фото коробок" width="370" height="294">
+            <div class="item-wrap"><img src="./images/boxes.jpg" alt="Фото коробок" width="370" height="294">
             <h2 class="section-title">Проект <span lang="en"></span> Boxes</h2>
             <p class="section-text">Приложение</p>
-        </a>
+        </div>
+    </a>
         </li>
         <li class="item-portfolio"><a href="" class="link">
-            <img src="./images/komp.jpg" alt="Фото монитора" width="370" height="294">
+            <div class="item-wrap">
+                <img src="./images/komp.jpg" alt="Фото монитора" width="370" height="294">
             <h2 class="section-title"><span lang="">Inspiration has no Borders</span> </h2>
             <p class="section-text">Веб-сайт</p>
-        </a>
+        </div>
+    </a>
         </li>
         <li class="item-portfolio"><a href="" class="link">
-            <img src="./images/book.jpg" alt="Фото книги" width="370" height="294">
+            <div class="item-wrap">
+                <img src="./images/book.jpg" alt="Фото книги" width="370" height="294">
             <h2 class="section-title">Издание <span lang="en">Limited Edition</span> </h2>
             <p class="section-text">Дизайн</p>
-        </a>
+        </div>
+    </a>
         </li>
         <li class="item-portfolio"><a href="" class="link">
-            <img src="./images/birka.jpg" alt="Фото бирки" width="370" height="294">
+            <div class="item-wrap">
+                <img src="./images/birka.jpg" alt="Фото бирки" width="370" height="294">
             <h2 class="section-title">Проект <span lang="en">LAB</span> </h2>
             <p class="section-text">Маркетинг</p>
-        </a>
+        </div>
+    </a>
         </li>
         <li class="item-portfolio"><a href="" class="link">
-            <img src="./images/note.jpg" alt="Фото ноутбука" width="370" height="294">
+            <div class="item-wrap">
+                <img src="./images/note.jpg" alt="Фото ноутбука" width="370" height="294">
             <h2 class="section-title"> <span lang="en">Growing Business</span> </h2>
             <p class="section-text">Приложение</p>
-        </a>
+        </div>
+    </a>
         </li>
     
 </ul>
@@ -119,8 +137,10 @@
     <!--Футер-->
     <footer class="footer-backgraund">
         <div class="footer container">
-            <a href=".index.html" class="logo-foter"> <span class="logo-accent">Web</span>Studio</a>
-            <address class="address-city">
+            <a href=".index.html" class="logo-footer"> <span class="logo-accent">Web</span>Studio</a>
+            
+            <div class="footer-address">
+                <address class="address-city">
                 <a href="https://goo.gl/maps/Y9RydLLw3SXS2AKa6" class="address">г. Киев, пр-т Леси Украинки, 26</a>
     
             </address>
@@ -128,6 +148,7 @@
                 <a href="mailto:info@example.com" class="contacts-main">info@example.com</a> <br>
                 <a href="tel:+380991111111" class="contacts-main">+38 099 111 11 11</a>
             </address>
+        </div>
         </div>
     </footer>
 
