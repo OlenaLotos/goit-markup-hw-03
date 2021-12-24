@@ -21,9 +21,9 @@
             <a href="./index.html" class="logo"> <span class="logo-accent">Web</span>Studio</a>
     
             <ul class="site-nav list">
-                <li class="header-link"> <a href="" class="link">Студия</a></li>
-                <li class="header-link"> <a href="./portfolio.html" class="link">Портфолио</a></li>
-                <li class="header-link"> <a href="" class="link">Контакты</a></li>
+                <li class="header-link"> <a href="" class="nav-link link">Студия</a></li>
+                <li class="header-link"> <a href="./portfolio.html" class="nav-link link">Портфолио</a></li>
+                <li class="header-link"> <a href="" class="nav-link link">Контакты</a></li>
             </ul>
         </nav>
         
@@ -38,8 +38,8 @@
 
 <main>
 
-    <section class="hero section">
-        <div class="hero container">
+    <section class="hero">
+        <div class="hero-wrap container">
         <h1 class="hero-title">Эффективные решения<br>для вашего бизнеса</h1>
         <button type="button" class="button-hero">Заказать услугу</button> 
    </div>  
@@ -77,9 +77,12 @@
         <div class="activity container">
         <h2 class="activity-title">Чем мы занимаемся</h2>
         <ul class="activity list">
-            <li class="activity-photo"><img src="./images/img.png" alt="Фото планшета с клавиатурой" width="370"></li>           
-            <li class="activity-photo"><img src="./images/planshet.png" alt="Фото планшета" width="370"></li>
-            <li class="activity-photo"><img src="./images/nout.png" alt="Фото ноутбука" width="370"></li>  
+            <li class="activity-photo">
+                <img class="activity-image no-gap" src="./images/img.png" alt="Фото планшета с клавиатурой" width="370"></li>           
+            <li class="activity-photo">
+                <img class="activity-image no-gap" src="./images/planshet.png" alt="Фото планшета" width="370"></li>
+            <li class="activity-photo">
+                <img class="activity-image no-gap" src="./images/nout.png" alt="Фото ноутбука" width="370"></li>  
         </ul>
     </div>
     </section>
@@ -96,7 +99,7 @@
            
             <li class="card-list">
                 <div>
-                <img class="photo-team" src="./images/igor.jpg" alt="Фото Игоря" width="270" height="260">
+                <img class="photo-team no-gap" src="./images/igor.jpg" alt="Фото Игоря" width="270" height="260">
                <div class="card-content">
                    <h3 class="team-name">Игорь Демьяненко</h3>
                 <p class="team-possition"> <span lang="en">Product Designer</span> </p>
@@ -105,7 +108,7 @@
         </li>
             <li class="card-list">
                <div>
-                <img class="photo-team"src="./images/olga.jpg" alt="Фото Ольги" width="270" height="260">
+                <img class="photo-team no-gap" src="./images/olga.jpg" alt="Фото Ольги" width="270" height="260">
                
                 <div class="card-content">
                     <h3 class="team-name">Ольга Репина</h3>
@@ -115,7 +118,7 @@
         </li>
             <li class="card-list">
                 <div>
-                <img class="photo-team"src="./images/nicolay.jpg" alt="Фото Николая" width="270" height="260">
+                <img class="photo-team no-gap" src="./images/nicolay.jpg" alt="Фото Николая" width="270" height="260">
                 <div class="card-content">
                     <h3 class="team-name">Николай Тарасов</h3>
                 <p class="team-possition"> <span lang="en">Marketing</span> </p>
@@ -124,7 +127,7 @@
         </li>
             <li class="card-list">
                 <div>
-                <img class="photo-team"src="./images/mihail.jpg" alt="Фото Михаила" width="270" height="260">
+                <img class="photo-team no-gap" src="./images/mihail.jpg" alt="Фото Михаила" width="270" height="260">
                 <div class="card-content">
                     <h3 class="team-name">Михаил Ермаков</h3>
                 <p class="team-possition"> <span lang="en">UI Designer</span> </p>
@@ -134,7 +137,7 @@
        
         </ul>
      </div>
-    </div>
+   
     </section>
 </main>
 
