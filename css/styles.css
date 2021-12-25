@@ -25,7 +25,7 @@ ol {
 }
 :root {
   --bg-secondary: #e5e5e5;
-
+  --border-header: #ececec;
   --primary-text-color: #212121;
   --accent-color: #2196f3;
   --secondary-text-color: #757575;
@@ -35,6 +35,7 @@ ol {
   --white-text-color: #ffffff;
   --bg-button-color: #f5f4fa;
   --button-hover-color: #188ce8;
+  --border-portfolio: #eeeeee;
 }
 
 body {
@@ -55,7 +56,7 @@ body {
 .page-header {
   /* padding-top: 24px;
   padding-bottom: 32px; */
-  border-bottom: solid 1px #ececec;
+  border-bottom: solid 1px var(--border-header);
 }
 
 /* Index.html */
@@ -119,6 +120,7 @@ body {
   margin-left: -30px;
 }
 .features-title {
+  color: var(--primary-text-color);
   margin-top: 0px;
   margin-bottom: 10px;
   font-weight: bold;
@@ -278,6 +280,9 @@ body {
 /* .item-wrap {
   outline: solid 1px tomato;
 } */
+.section-portfolio {
+  margin-bottom: 94px;
+}
 .portfolio {
   padding: 0px;
   margin: 0;
@@ -302,7 +307,7 @@ body {
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-portfolio);
 }
 .portfolio-image.no-gap {
   display: block;
@@ -349,9 +354,15 @@ body {
   display: flex;
 } */
 .section > .activity {
-  /* padding-top: -94px; */
+  padding-bottom: 94px;
 }
 /* TEAM */
+.section > .team {
+  padding-bottom: 94px;
+}
+.team-bg {
+  background-color: var(--bg-button-color);
+}
 .photo-team.no-gap {
   display: block;
 }
@@ -421,6 +432,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  display: block;
   margin-bottom: 20px;
 }
 .address-text {
@@ -434,6 +446,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  display: block;
+  margin-bottom: 9px;
 }
 .address:hover,
 .address:focus {
@@ -444,11 +458,17 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  display: block;
 }
 .contacts-main:hover,
 .contacts-main:focus {
   color: var(--accent-color);
 }
+.email {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
 .footer-backgraund {
   background-color: var(--backdraund-black);
   padding-top: 60px;
